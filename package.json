@@ -1,0 +1,26 @@
+{
+  "name": "mail-merge",
+  "version": "1.0.0",
+  "source": "index.html",
+  "description": "",
+  "scripts": {
+    "startInLocal": "parcel index.html --host 0.0.0.0",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "packageManager": "yarn@4.3.1",
+  "dependencies": {
+    "easy-template-x": "4.1.1",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "read-excel-file": "^5.8.6",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.9",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.83.0",
+    "typescript": "^5.7.2"
+  },
+  "keywords": []
+}
